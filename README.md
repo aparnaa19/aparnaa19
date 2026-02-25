@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Aparnaa
+# Hi, I'm Aparnaa Mahalaxmi Arulljothi
 
 ### M.A.S. Cybersecurity • SOC Operations • SIEM Investigation • Threat Detection • Incident Response 
 
