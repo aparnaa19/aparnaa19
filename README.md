@@ -1,23 +1,41 @@
 # 👋 Hi, I'm Aparnaa
 
-Cybersecurity Analyst focused on SOC Operations, threat detection, and incident response.
+Cybersecurity graduate student focused on SOC Operations, threat detection, and incident response across Windows and Linux environments.
 
-## Core Areas
+Hands-on experience investigating alerts, analyzing endpoint telemetry, and understanding attacker behavior through adversary simulation labs and defensive security workflows.
 
-- SIEM Investigation
-- Threat Hunting
-- Incident Response
-- Log Analysis
+Currently seeking entry-level SOC Analyst or Cybersecurity Analyst opportunities where I can contribute to monitoring, investigation, and incident response operations.
 
-## Tools
+---
 
-Splunk | Defender for Endpoint | Sysmon | Python | PowerShell
+## 🔎 Core Areas
 
-## Current Role
+- SIEM Investigation & Alert Triage
+- Threat Detection & Threat Hunting
+- Incident Response Workflows
+- Endpoint Telemetry Analysis
+- Windows & Linux Log Analysis
+- MITRE ATT&CK Mapping
 
-Cybersecurity Support & Technical Support Specialist Intern
+---
 
-## Connect With Me
+## 🛠 Tools & Technologies
 
-LinkedIn:
-https://linkedin.com/in/yourprofile
+Security Monitoring:
+Splunk, Windows Event Logs, Sysmon
+
+Endpoint Security:
+Microsoft Defender for Endpoint
+
+DFIR:
+Volatility, Evidence Collection & Analysis
+
+Threat Intelligence:
+VirusTotal, AbuseIPDB, IOC Analysis
+
+Automation:
+Python, PowerShell
+
+Infrastructure:
+Windows Server, Active Directory, Linux (Ubuntu)
+
