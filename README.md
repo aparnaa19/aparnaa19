@@ -36,7 +36,7 @@ Currently seeking entry-level SOC Analyst or Cybersecurity Analyst opportunities
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 ### Security Monitoring
 ![Splunk](https://img.shields.io/badge/Splunk-000000?logo=splunk&logoColor=white)
