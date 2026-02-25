@@ -1,13 +1,13 @@
 <div align="center">
 
-# 👋 Hi, I'm Aparnaa
+# Hi, I'm Aparnaa
 
-### SOC Operations • SIEM Investigation • Threat Detection • Incident Response
+### M.A.S. Cybersecurity • SOC Operations • SIEM Investigation • Threat Detection • Incident Response 
 
-<a href="https://www.linkedin.com/in/YOURPROFILE" target="_blank">
+<a href="www.linkedin.com/in/aparnaa19" target="_blank">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" />
 </a>
-<a href="mailto:your@email.com">
+<a href="aparnaa1902@gmail.com">
   <img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white" />
 </a>
 
@@ -15,16 +15,16 @@
 
 ---
 
-## 🧩 About
+## About
 
-Cybersecurity graduate student focused on SOC Operations, threat detection, and incident response across Windows and Linux environments.  
-Hands-on experience investigating security alerts, analyzing endpoint telemetry, and understanding attacker behavior through adversary simulation labs and defensive security workflows.
+Cybersecurity graduate student focused on SOC Operations, threat detection, and incident response across Windows and Linux environments. 
+Hands-on experience investigating alerts, analyzing endpoint telemetry, and understanding attacker behavior through adversary simulation labs and defensive security workflows. 
 
-Currently seeking **entry-level SOC Analyst / Cybersecurity Analyst** roles where I can contribute to monitoring, investigation, and incident response operations.
+Currently seeking entry-level SOC Analyst or Cybersecurity Analyst opportunities where I can contribute to monitoring, investigation, and incident response operations.
 
 ---
 
-## 🔎 Core Areas
+## Core Areas
 
 - SIEM Investigation & Alert Triage
 - Threat Detection & Threat Hunting
@@ -54,9 +54,6 @@ Currently seeking **entry-level SOC Analyst / Cybersecurity Analyst** roles wher
 ![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-1F2937?logo=github&logoColor=white)
 ![IOC Analysis](https://img.shields.io/badge/IOC%20Analysis-334155?logo=github&logoColor=white)
 
-### Automation
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
 
 ### Infrastructure
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?logo=windows&logoColor=white)
@@ -65,8 +62,5 @@ Currently seeking **entry-level SOC Analyst / Cybersecurity Analyst** roles wher
 
 ---
 
-<div align="center">
-
-⭐ If you'd like, I can also format this with a clean banner + pinned repo layout so your GitHub looks like a SOC portfolio.
 
 </div>
