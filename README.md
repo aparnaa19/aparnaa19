@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Hi, I'm Aparnaa
 
-<!--
-**aparnaa19/aparnaa19** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Cybersecurity Analyst focused on SOC Operations, threat detection, and incident response.
 
-Here are some ideas to get you started:
+## Core Areas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- SIEM Investigation
+- Threat Hunting
+- Incident Response
+- Log Analysis
+
+## Tools
+
+Splunk | Defender for Endpoint | Sysmon | Python | PowerShell
+
+## Current Role
+
+Cybersecurity Support & Technical Support Specialist Intern
+
+## Connect With Me
+
+LinkedIn:
+https://linkedin.com/in/yourprofile
