@@ -18,10 +18,33 @@
 
 ## About
 
-Cybersecurity graduate student focused on SOC Operations, threat detection, and incident response across Windows and Linux environments. 
-Hands-on experience investigating alerts, analyzing endpoint telemetry, and understanding attacker behavior through adversary simulation labs and defensive security workflows. 
+Cybersecurity graduate student (M.A.S., Cybersecurity) based in Chicago, 
+actively seeking SOC Analyst and Cybersecurity Analyst roles.
 
-Currently seeking entry-level SOC Analyst or Cybersecurity Analyst opportunities where I can contribute to monitoring, investigation, and incident response operations.
+I build what I can't yet do professionally. My home lab runs Splunk 
+Enterprise ingesting Windows and Linux logs, where I've simulated and 
+detected real attack chains - brute force, privilege escalation, lateral 
+movement, and phishing with custom payloads that bypassed AV completely. 
+I investigate alerts, reconstruct attacker timelines, and write SOC-style 
+incident reports with IOCs, containment steps, and remediation guidance.
+
+Recent work includes:
+→ Phishing simulation lab: built a custom payload with zero AV detections, 
+detected it through behavioral analysis in Splunk using Event ID 4688, 
+documented full incident report with kill chain mapping
+→ SIEM home lab: 7 detections across brute force, PowerShell abuse, 
+privilege escalation, and Linux auth attacks
+→ AgentForensics: open-source LLM security framework detecting prompt 
+injection attacks in real time - co-authored research paper currently 
+under review
+
+Core skills: Splunk SPL | Windows Event Logs | Sysmon | MITRE ATT&CK | 
+Cyber Kill Chain | Incident Response | Threat Detection | Python | 
+Log Analysis | VirusTotal | AbuseIPDB
+
+I document everything. Every project has a written investigation, 
+incident report, or technical writeup - because SOC work lives 
+in the ticket, not just the alert
 
 ---
 
