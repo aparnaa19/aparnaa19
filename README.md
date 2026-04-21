@@ -29,11 +29,14 @@ I investigate alerts, reconstruct attacker timelines, and write SOC-style
 incident reports with IOCs, containment steps, and remediation guidance.
 
 Recent work includes:
+
 → Phishing simulation lab: built a custom payload with zero AV detections, 
 detected it through behavioral analysis in Splunk using Event ID 4688, 
 documented full incident report with kill chain mapping
+
 → SIEM home lab: 7 detections across brute force, PowerShell abuse, 
 privilege escalation, and Linux auth attacks
+
 → AgentForensics: open-source LLM security framework detecting prompt 
 injection attacks in real time - co-authored research paper currently 
 under review
