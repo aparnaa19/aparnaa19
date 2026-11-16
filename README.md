@@ -1,8 +1,8 @@
+<p align="center"><img src="aurora-banner.svg" width="100%" alt="Aparnaa Mahalaxmi Arulljothi"></p>
+
 <div align="center">
 
-# Hi, I'm Aparnaa Mahalaxmi Arulljothi
-
-### M.A.S. Cybersecurity • SOC Operations • SIEM Investigation • Threat Detection • Incident Response 
+### M.A.S. Cybersecurity • SOC Operations • SIEM Investigation • Threat Detection • Incident Response
 
 <a href="https://www.linkedin.com/in/aparnaa19" target="_blank">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" />
@@ -18,36 +18,36 @@
 
 ## About
 
-Cybersecurity graduate student (M.A.S., Cybersecurity) based in Chicago, 
+<img src="desk.svg" align="right" width="320" alt="pixel art of me at my desk">
+
+Cybersecurity graduate student (M.A.S., Cybersecurity) based in Chicago,
 actively seeking SOC Analyst and Cybersecurity Analyst roles.
 
-I build what I can't yet do professionally. My home lab runs Splunk 
-Enterprise ingesting Windows and Linux logs, where I've simulated and 
-detected real attack chains - brute force, privilege escalation, lateral 
-movement, and phishing with custom payloads that bypassed AV completely. 
-I investigate alerts, reconstruct attacker timelines, and write SOC-style 
+I build what I can't yet do professionally. My home lab runs Splunk
+Enterprise ingesting Windows and Linux logs, where I've simulated and
+detected real attack chains: brute force, privilege escalation, lateral
+movement, and phishing with custom payloads that bypassed AV completely.
+I investigate alerts, reconstruct attacker timelines, and write SOC-style
 incident reports with IOCs, containment steps, and remediation guidance.
 
 Recent work includes:
 
-→ Phishing simulation lab: built a custom payload with zero AV detections, 
-detected it through behavioral analysis in Splunk using Event ID 4688, 
-documented full incident report with kill chain mapping
+- **Phishing simulation lab:** built a custom payload with zero AV detections,
+  detected it through behavioral analysis in Splunk using Event ID 4688,
+  documented full incident report with kill chain mapping
+- **SIEM home lab:** 7 detections across brute force, PowerShell abuse,
+  privilege escalation, and Linux auth attacks
+- **AgentForensics:** open-source LLM security framework detecting prompt
+  injection attacks in real time, co-authored research paper currently
+  under review
 
-→ SIEM home lab: 7 detections across brute force, PowerShell abuse, 
-privilege escalation, and Linux auth attacks
-
-→ AgentForensics: open-source LLM security framework detecting prompt 
-injection attacks in real time - co-authored research paper currently 
-under review
-
-Core skills: Splunk SPL | Windows Event Logs | Sysmon | MITRE ATT&CK | 
-Cyber Kill Chain | Incident Response | Threat Detection | Python | 
+Core skills: Splunk SPL | Windows Event Logs | Sysmon | MITRE ATT&CK |
+Cyber Kill Chain | Incident Response | Threat Detection | Python |
 Log Analysis | VirusTotal | AbuseIPDB
 
-I document everything. Every project has a written investigation, 
-incident report, or technical writeup - because SOC work lives 
-in the ticket, not just the alert
+I document everything. Every project has a written investigation,
+incident report, or technical writeup, because SOC work lives
+in the ticket, not just the alert.
 
 ---
 
@@ -81,7 +81,6 @@ in the ticket, not just the alert
 ![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-1F2937?logo=github&logoColor=white)
 ![IOC Analysis](https://img.shields.io/badge/IOC%20Analysis-334155?logo=github&logoColor=white)
 
-
 ### Infrastructure
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?logo=windows&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-0B5CAB?logo=microsoft&logoColor=white)
@@ -89,5 +88,4 @@ in the ticket, not just the alert
 
 ---
 
-
-</div>
+<p align="center"><img src="cat.svg" width="100%" alt="a cat walking by"></p>
