@@ -1,91 +1,89 @@
-<p align="center"><img src="aurora-banner.svg" width="100%" alt="Aparnaa Mahalaxmi Arulljothi"></p>
-
 <div align="center">
-
-### M.A.S. Cybersecurity • SOC Operations • SIEM Investigation • Threat Detection • Incident Response
-
-<a href="https://www.linkedin.com/in/aparnaa19" target="_blank">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" />
-</a>
-
-<a href="mailto:aparnaa1902@gmail.com">
-  <img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white" />
-</a>
-
+<img src="hero.svg" width="100%" alt="Hi, I'm Aparnaa. Logs tell stories. I investigate them."/>
 </div>
 
----
+<br/>
 
-## About
+Cybersecurity graduate (Master's, Illinois Institute of Technology) working toward SOC analyst roles.
+I like the part of security where you open the logs and figure out what actually happened.
 
-<img src="desk.svg" align="right" width="320" alt="pixel art of me at my desk">
+<img src="divider.svg" width="100%"/>
 
-Cybersecurity graduate student (M.A.S., Cybersecurity) based in Chicago,
-actively seeking SOC Analyst and Cybersecurity Analyst roles.
+## What I know
 
-I build what I can't yet do professionally. My home lab runs Splunk
-Enterprise ingesting Windows and Linux logs, where I've simulated and
-detected real attack chains: brute force, privilege escalation, lateral
-movement, and phishing with custom payloads that bypassed AV completely.
-I investigate alerts, reconstruct attacker timelines, and write SOC-style
-incident reports with IOCs, containment steps, and remediation guidance.
+<table>
+  <tr>
+    <td width="50%" valign="top"><b>Alert triage and investigation</b>, from the first alert to root cause</td>
+    <td width="50%" valign="top"><b>Windows and Linux logging:</b> Security event IDs, Sysmon, auth.log, syslog</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Detection engineering:</b> SPL and KQL searches, and Sigma rules that work across SIEMs</td>
+    <td valign="top"><b>Mapping findings to MITRE ATT&CK</b></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Phishing analysis:</b> headers, SPF/DKIM/DMARC, attachments and links</td>
+    <td valign="top"><b>Incident response:</b> the NIST lifecycle, playbooks, and writing up findings</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><b>Network analysis:</b> packet captures, Zeek logs, pulling out IOCs</td>
+  </tr>
+</table>
 
-Recent work includes:
+<img src="divider.svg" width="100%"/>
 
-- **Phishing simulation lab:** built a custom payload with zero AV detections,
-  detected it through behavioral analysis in Splunk using Event ID 4688,
-  documented full incident report with kill chain mapping
-- **SIEM home lab:** 7 detections across brute force, PowerShell abuse,
-  privilege escalation, and Linux auth attacks
-- **AgentForensics:** open-source LLM security framework detecting prompt
-  injection attacks in real time, co-authored research paper currently
-  under review
+## What I've done
 
-Core skills: Splunk SPL | Windows Event Logs | Sysmon | MITRE ATT&CK |
-Cyber Kill Chain | Incident Response | Threat Detection | Python |
-Log Analysis | VirusTotal | AbuseIPDB
+Every investigation I work on goes into my journal, written up the way a SOC report would be:
+what fired, what I checked, what I found, and what I'd do next.
 
-I document everything. Every project has a written investigation,
-incident report, or technical writeup, because SOC work lives
-in the ticket, not just the alert.
+<a href="https://aparnaajournal.netlify.app/"><img alt="Read my investigation journal" src="https://img.shields.io/badge/Read%20my%20investigation%20journal-%E2%86%92-ff5fa2?style=for-the-badge&labelColor=1a0b33"/></a>
 
----
+<br/><br/>
 
-## Core Areas
+<a href="https://aparnaajournal.netlify.app/"><img src="https://s0.wp.com/mshots/v1/https%3A%2F%2Faparnaajournal.netlify.app%2F?w=1280&h=800" width="560" alt="My investigation journal"/></a>
 
-- SIEM Investigation & Alert Triage
-- Threat Detection & Threat Hunting
-- Incident Response Workflows
-- Endpoint Telemetry Analysis
-- Windows & Linux Log Analysis
-- MITRE ATT&CK Mapping
+<img src="divider.svg" width="100%"/>
 
----
+## Experience
 
-## Tools & Technologies
+**● Cybersecurity and Technical Support Specialist**
+> **KayCore**
+>
+> Built a security compliance assessment program covering SSL/TLS, email authentication, MFA,
+> access control and incident response, mapped to NIST, OWASP and PCI-DSS.
+>
+> `NIST` `OWASP` `PCI-DSS`
 
-### Security Monitoring
-![Splunk](https://img.shields.io/badge/Splunk-000000?logo=splunk&logoColor=white)
-![Windows Event Logs](https://img.shields.io/badge/Windows%20Event%20Logs-0078D6?logo=windows&logoColor=white)
-![Sysmon](https://img.shields.io/badge/Sysmon-0078D6?logo=windows&logoColor=white)
+**● Build Student Consultant**
+> **The Build Fellowship (Open Avenues Foundation)**
+>
+> Built and deployed SafeAPI, a secure login app on Google Cloud with layered defenses:
+> Firebase Authentication, App Check, rate limiting, and Cloud Armor.
+>
+> `Firebase Authentication` `App Check` `Rate limiting` `Cloud Armor`
 
-### Endpoint Security
-![Microsoft Defender for Endpoint](https://img.shields.io/badge/Microsoft%20Defender%20for%20Endpoint-0078D4?logo=microsoft&logoColor=white)
+<img src="divider.svg" width="100%"/>
 
-### DFIR
-![Volatility](https://img.shields.io/badge/Volatility-111111?logo=github&logoColor=white)
-![Evidence Handling](https://img.shields.io/badge/Evidence%20Collection%20%26%20Analysis-444444?logo=github&logoColor=white)
+## Tools and platforms
 
-### Threat Intelligence
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?logo=virustotal&logoColor=white)
-![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-1F2937?logo=github&logoColor=white)
-![IOC Analysis](https://img.shields.io/badge/IOC%20Analysis-334155?logo=github&logoColor=white)
+| Area | Tools |
+|---|---|
+| SIEM | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Elastic Security](https://img.shields.io/badge/Elastic%20Security-005571?style=flat-square&logo=elastic&logoColor=white) ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft%20Sentinel-0078D4?style=flat-square) ![Wazuh](https://img.shields.io/badge/Wazuh-3595F9?style=flat-square) |
+| Endpoint | ![Sysmon](https://img.shields.io/badge/Sysmon-0078D6?style=flat-square) ![Windows Event Logs](https://img.shields.io/badge/Windows%20Event%20Logs-0078D6?style=flat-square) ![Microsoft Defender XDR](https://img.shields.io/badge/Microsoft%20Defender%20XDR-0078D4?style=flat-square) |
+| Network | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Zeek](https://img.shields.io/badge/Zeek-2E3192?style=flat-square) ![Pi-hole](https://img.shields.io/badge/Pi--hole-96060C?style=flat-square&logo=pihole&logoColor=white) |
+| Threat intel | ![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white) ![AbuseIPDB](https://img.shields.io/badge/AbuseIPDB-1F2937?style=flat-square) ![CyberChef](https://img.shields.io/badge/CyberChef-2E7D32?style=flat-square) |
+| Forensics | ![Volatility](https://img.shields.io/badge/Volatility-111111?style=flat-square) |
+| Cloud | ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) |
+| Systems | ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square) ![Linux (Ubuntu)](https://img.shields.io/badge/Linux%20(Ubuntu)-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active%20Directory-0B5CAB?style=flat-square) |
+| Query and scripting | ![SPL](https://img.shields.io/badge/SPL-000000?style=flat-square&logo=splunk&logoColor=white) ![KQL](https://img.shields.io/badge/KQL-0078D4?style=flat-square) ![Sigma](https://img.shields.io/badge/Sigma-6E4F9C?style=flat-square) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 
-### Infrastructure
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?logo=windows&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0B5CAB?logo=microsoft&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux%20(Ubuntu)-E95420?logo=ubuntu&logoColor=white)
+<img src="divider.svg" width="100%"/>
 
----
+## Contact
 
-<p align="center"><img src="cat.svg" width="100%" alt="a cat walking by"></p>
+<a href="https://www.linkedin.com/in/aparnaa19"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:aparnaa1902@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+<div align="center">
+<img src="cat.svg" width="100%" alt=""/>
+</div>
