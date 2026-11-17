@@ -1,11 +1,7 @@
-<div align="center">
-<img src="hero.svg" width="100%" alt="Hi, I'm Aparnaa. Logs tell stories. I investigate them."/>
-</div>
-
-<br/>
-
-Cybersecurity graduate (Master's, Illinois Institute of Technology) working toward SOC analyst roles.
-I like the part of security where you open the logs and figure out what actually happened.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="hello-dark.svg">
+  <img src="hello-light.svg" alt="Hi, I'm Aparnaa. Cybersecurity graduate (Master's, Illinois Institute of Technology) working toward SOC analyst roles. I like the part of security where you open the logs and figure out what actually happened. Logs tell stories. I investigate them.">
+</picture>
 
 <img src="divider.svg" width="100%"/>
 
