@@ -5,7 +5,10 @@
 
 <img src="divider.svg" width="100%"/>
 
-## What I know
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="h2-know-dark.svg">
+  <img src="h2-know-light.svg" width="100%" alt="What I know">
+</picture>
 
 <table>
   <tr>
@@ -27,7 +30,10 @@
 
 <img src="divider.svg" width="100%"/>
 
-## What I've done
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="h2-done-dark.svg">
+  <img src="h2-done-light.svg" width="100%" alt="What I've done">
+</picture>
 
 Every investigation I work on goes into my journal, written up the way a SOC report would be:
 what fired, what I checked, what I found, and what I'd do next.
@@ -38,9 +44,19 @@ what fired, what I checked, what I found, and what I'd do next.
 
 <a href="https://aparnaajournal.netlify.app/"><img src="https://s0.wp.com/mshots/v1/https%3A%2F%2Faparnaajournal.netlify.app%2F?w=1280&h=800" width="560" alt="My investigation journal"/></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="attack-dark.svg">
+  <img src="attack-light.svg" width="100%" alt="MITRE ATT&CK techniques from my investigations: T1566 Phishing, T1059.001 PowerShell, T1027 Obfuscated Files or Information, T1547.001 Registry Run Keys / Startup Folder, T1547.004 Winlogon Helper DLL">
+</picture>
+
 <img src="divider.svg" width="100%"/>
 
-## Experience
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="h2-experience-dark.svg">
+  <img src="h2-experience-light.svg" width="100%" alt="Experience">
+</picture>
 
 **● Cybersecurity and Technical Support Specialist**
 > **KayCore**
@@ -60,7 +76,10 @@ what fired, what I checked, what I found, and what I'd do next.
 
 <img src="divider.svg" width="100%"/>
 
-## Tools and platforms
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="h2-tools-dark.svg">
+  <img src="h2-tools-light.svg" width="100%" alt="Tools and platforms">
+</picture>
 
 | Area | Tools |
 |---|---|
@@ -75,7 +94,15 @@ what fired, what I checked, what I found, and what I'd do next.
 
 <img src="divider.svg" width="100%"/>
 
-## Contact
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aparnaa19/aparnaa19/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/aparnaa19/aparnaa19/output/snake-light.svg" width="100%" alt="Contribution graph with a snake eating the squares">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="h2-contact-dark.svg">
+  <img src="h2-contact-light.svg" width="100%" alt="Contact">
+</picture>
 
 <a href="https://www.linkedin.com/in/aparnaa19"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:aparnaa1902@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
