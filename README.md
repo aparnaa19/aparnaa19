@@ -42,7 +42,7 @@ what fired, what I checked, what I found, and what I'd do next.
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="attack-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="aa.svg">
   <img src="attack-light.svg" width="100%" alt="MITRE ATT&CK techniques from my investigations: T1566 Phishing, T1059.001 PowerShell, T1027 Obfuscated Files or Information, T1547.001 Registry Run Keys / Startup Folder, T1547.004 Winlogon Helper DLL">
 </picture>
 
