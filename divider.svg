@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 8" width="1000" height="8">
+<style>.sh{animation:sh 4s ease-in-out infinite}@keyframes sh{from{transform:translateX(-300px)}to{transform:translateX(1000px)}}</style>
+<defs>
+<linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#ff5fa2" stop-opacity="0"/><stop offset=".2" stop-color="#ff5fa2"/><stop offset=".55" stop-color="#b48cff"/><stop offset=".8" stop-color="#7fd1ff"/><stop offset="1" stop-color="#7fd1ff" stop-opacity="0"/></linearGradient>
+<linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect x="0" y="3" width="1000" height="2" rx="1"/></clipPath>
+</defs>
+<rect x="0" y="3" width="1000" height="2" rx="1" fill="url(#l)"/>
+<g clip-path="url(#c)"><rect class="sh" x="0" y="0" width="300" height="8" fill="url(#s)"/></g>
+</svg>

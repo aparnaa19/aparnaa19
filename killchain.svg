@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" role="img" aria-label="Cyber kill chain animation: an attack is detected at the exploit stage">
+<style>
+@keyframes n0 { 0%,0.0% { fill: #2a1b46; stroke: #5d4a85; } 1.0%,88% { fill: #ff5fa2; stroke: #ff5fa2; } 92%,100% { fill: #2a1b46; stroke: #5d4a85; } }
+@keyframes n1 { 0%,16.8% { fill: #2a1b46; stroke: #5d4a85; } 18.3%,88% { fill: #ff5fa2; stroke: #ff5fa2; } 92%,100% { fill: #2a1b46; stroke: #5d4a85; } }
+@keyframes n2 { 0%,34.2% { fill: #2a1b46; stroke: #5d4a85; } 35.7%,88% { fill: #ff5fa2; stroke: #ff5fa2; } 92%,100% { fill: #2a1b46; stroke: #5d4a85; } }
+@keyframes n3 { 0%,51.5% { fill: #2a1b46; stroke: #5d4a85; } 53.0%,88% { fill: #7fd1ff; stroke: #7fd1ff; } 92%,100% { fill: #2a1b46; stroke: #5d4a85; } }
+.pkt { animation: pkt 10s linear infinite; }
+@keyframes pkt { 0% { transform: translateX(0); opacity: 0; } 3% { opacity: 1; } 52% { transform: translateX(411px); opacity: 1; } 58%,100% { transform: translateX(411px); opacity: 0; } }
+.trail { animation: trail 10s linear infinite; }
+@keyframes trail { 0% { stroke-dashoffset: 411; opacity: 1; } 52% { stroke-dashoffset: 0; opacity: 1; } 88% { stroke-dashoffset: 0; opacity: 1; } 92%,100% { opacity: 0; } }
+.shield { opacity: 0; animation: shield 10s ease-out infinite; transform-origin: 501px 92px; }
+@keyframes shield { 0%,52% { opacity: 0; transform: scale(.5); } 55% { opacity: 1; } 66%,100% { opacity: 0; transform: scale(2.4); } }
+.tag { opacity: 0; animation: tag 10s ease-out infinite; }
+@keyframes tag { 0%,52% { opacity: 0; transform: translateY(6px); } 56%,86% { opacity: 1; transform: translateY(0); } 90%,100% { opacity: 0; } }
+.dim { animation: dim 10s linear infinite; }
+@keyframes dim { 0%,52% { opacity: 1; } 56%,86% { opacity: .25; } 90%,100% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0e0420"/><stop offset="1" stop-color="#2b1150"/></linearGradient>
+  <linearGradient id="tr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5fa2" stop-opacity=".2"/><stop offset="1" stop-color="#ff5fa2"/></linearGradient>
+</defs>
+<rect width="1000" height="170" rx="16" fill="url(#bg2)"/>
+<text x="28" y="32" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="12" fill="#8f7fb8">cyber kill chain</text>
+<line x1="90" y1="92" x2="912" y2="92" stroke="#5d4a85" stroke-width="2" stroke-dasharray="4 6"/>
+<g class="dim"><line x1="501" y1="92" x2="912" y2="92" stroke="#2a1b46" stroke-width="3"/></g>
+<line class="trail" x1="90" y1="92" x2="501" y2="92" stroke="url(#tr)" stroke-width="3" stroke-dasharray="411"/>
+<circle cx="90" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" style="animation: n0 10s linear infinite"/><text x="90" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e9dcff">Recon</text><circle cx="227" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" style="animation: n1 10s linear infinite"/><text x="227" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e9dcff">Weaponize</text><circle cx="364" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" style="animation: n2 10s linear infinite"/><text x="364" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e9dcff">Delivery</text><circle cx="501" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" style="animation: n3 10s linear infinite"/><text x="501" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#e9dcff">Exploit</text><circle cx="638" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" /><text x="638" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#7d6ba6">Install</text><circle cx="775" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" /><text x="775" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#7d6ba6">C2</text><circle cx="912" cy="92" r="13" fill="#2a1b46" stroke="#5d4a85" stroke-width="2" /><text x="912" y="132" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#7d6ba6">Actions</text>
+<circle class="shield" cx="501" cy="92" r="22" fill="none" stroke="#7fd1ff" stroke-width="3"/>
+<g class="pkt"><circle cx="90" cy="92" r="7" fill="#fff"/><circle cx="90" cy="92" r="12" fill="#ff5fa2" fill-opacity=".35"/></g>
+<g class="tag">
+  <rect x="409" y="30" width="184" height="30" rx="8" fill="#0b2433" stroke="#7fd1ff"/>
+  <text x="501" y="50" text-anchor="middle" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#7fd1ff">DETECTED · Event ID 4688</text>
+</g>
+</svg>

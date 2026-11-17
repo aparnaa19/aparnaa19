@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Hi, I'm Aparnaa Mahalaxmi Arulljothi. M.A.S. Cybersecurity, SOC Operations, SIEM Investigation, Threat Detection, Incident Response">
+<style>
+.scroll { animation: scroll 16s linear infinite; }
+@keyframes scroll { to { transform: translateY(-266px); } }
+.scan { animation: scan 6s linear infinite; }
+@keyframes scan { from { transform: translateY(-80px); } to { transform: translateY(360px); } }
+.chip { opacity: 0; animation: chip .6s ease-out forwards; }
+@keyframes chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.live { animation: live 1.4s ease-in-out infinite; }
+@keyframes live { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+.caret { animation: caret 1s steps(1) infinite; }
+@keyframes caret { 50% { opacity: 0; } }
+.alert { opacity: 0; animation: alert 9s ease-in-out infinite; }
+@keyframes alert { 0%,18% { opacity: 0; transform: translateY(10px); } 22%,52% { opacity: 1; transform: translateY(0); } 55%,100% { opacity: 0; } }
+.ok { opacity: 0; animation: ok 9s ease-in-out infinite; }
+@keyframes ok { 0%,53% { opacity: 0; } 57%,84% { opacity: 1; } 88%,100% { opacity: 0; } }
+.pulse { animation: pulse 9s ease-out infinite; transform-origin: 776px 287px; }
+@keyframes pulse { 0%,22% { opacity: 0; transform: scale(.6); } 26% { opacity: .7; } 40%,100% { opacity: 0; transform: scale(1.6); } }
+.ring { animation: ring 4s ease-out infinite; transform-origin: 930px 40px; }
+@keyframes ring { from { opacity: .5; transform: scale(.2); } to { opacity: 0; transform: scale(1); } }
+.glow { animation: glow 6s ease-in-out infinite; }
+@keyframes glow { 0%,100% { opacity: .55; } 50% { opacity: .85; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0e0420"/><stop offset=".55" stop-color="#1c0b3c"/><stop offset="1" stop-color="#2b1150"/>
+  </linearGradient>
+  <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 90) scale(360 240)">
+    <stop offset="0" stop-color="#ff5fa2" stop-opacity=".35"/><stop offset="1" stop-color="#ff5fa2" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 330) scale(420 260)">
+    <stop offset="0" stop-color="#6e4f9c" stop-opacity=".55"/><stop offset="1" stop-color="#6e4f9c" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="name2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff5fa2"/><stop offset=".55" stop-color="#b48cff"/><stop offset="1" stop-color="#7fd1ff"/>
+  </linearGradient>
+  <linearGradient id="scanband" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".045"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+  </pattern>
+  <clipPath id="logs"><rect x="600" y="76" width="352" height="228"/></clipPath>
+  <clipPath id="c0"><rect x="56" y="58" height="30" width="0"><animate attributeName="width" from="0" to="120" begin=".2s" dur=".7s" fill="freeze"/></rect></clipPath>
+  <clipPath id="c1"><rect x="50" y="100" height="56" width="0"><animate attributeName="width" from="0" to="420" begin="1s" dur=".9s" fill="freeze"/></rect></clipPath>
+  <clipPath id="c2"><rect x="50" y="154" height="56" width="0"><animate attributeName="width" from="0" to="520" begin="1.8s" dur=".9s" fill="freeze"/></rect></clipPath>
+  <linearGradient id="fadeTop" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#120a28"/><stop offset="1" stop-color="#120a28" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<rect width="1000" height="360" rx="18" fill="url(#bg)"/>
+<rect class="glow" width="1000" height="360" rx="18" fill="url(#g1)"/>
+<rect width="1000" height="360" rx="18" fill="url(#g2)"/>
+<rect width="1000" height="360" rx="18" fill="url(#grid)"/>
+<rect class="scan" x="0" y="0" width="1000" height="80" fill="url(#scanband)"/>
+
+<g fill="none" stroke="#ff5fa2">
+  <circle class="ring" cx="930" cy="40" r="90"/>
+  <circle class="ring" cx="930" cy="40" r="90" style="animation-delay:2s"/>
+</g>
+
+<!-- left: identity -->
+<g clip-path="url(#c0)">
+  <text x="56" y="80" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="16" fill="#b48cff">&gt; whoami</text>
+</g>
+<rect class="caret" x="180" y="66" width="9" height="17" fill="#ff5fa2" opacity=".9">
+  <animate attributeName="x" values="56;176" begin=".2s" dur=".7s" fill="freeze"/>
+</rect>
+<g clip-path="url(#c1)">
+  <text x="54" y="142" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-.5">Hi, I'm Aparnaa</text>
+</g>
+<g clip-path="url(#c2)">
+  <text x="54" y="196" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="url(#name2)" letter-spacing="-.5">Mahalaxmi Arulljothi</text>
+</g>
+<g class="chip" style="animation-delay:2.60s">
+  <rect x="56" y="236" width="182" height="30" rx="15" fill="#ffffff0d" stroke="#ff5fa2" stroke-opacity=".55"/>
+  <circle cx="71" cy="251" r="3.5" fill="#ff5fa2"/>
+  <text x="81" y="255.5" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e9dcff">M.A.S. Cybersecurity</text>
+</g><g class="chip" style="animation-delay:2.78s">
+  <rect x="248" y="236" width="136" height="30" rx="15" fill="#ffffff0d" stroke="#b48cff" stroke-opacity=".55"/>
+  <circle cx="263" cy="251" r="3.5" fill="#b48cff"/>
+  <text x="273" y="255.5" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e9dcff">SOC Operations</text>
+</g><g class="chip" style="animation-delay:2.96s">
+  <rect x="394" y="236" width="166" height="30" rx="15" fill="#ffffff0d" stroke="#7fd1ff" stroke-opacity=".55"/>
+  <circle cx="409" cy="251" r="3.5" fill="#7fd1ff"/>
+  <text x="419" y="255.5" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e9dcff">SIEM Investigation</text>
+</g><g class="chip" style="animation-delay:3.14s">
+  <rect x="56" y="278" width="151" height="30" rx="15" fill="#ffffff0d" stroke="#ff5fa2" stroke-opacity=".55"/>
+  <circle cx="71" cy="293" r="3.5" fill="#ff5fa2"/>
+  <text x="81" y="297.5" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e9dcff">Threat Detection</text>
+</g><g class="chip" style="animation-delay:3.32s">
+  <rect x="217" y="278" width="159" height="30" rx="15" fill="#ffffff0d" stroke="#b48cff" stroke-opacity=".55"/>
+  <circle cx="232" cy="293" r="3.5" fill="#b48cff"/>
+  <text x="242" y="297.5" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e9dcff">Incident Response</text>
+</g>
+
+<!-- right: live log console -->
+<rect x="590" y="36" width="374" height="290" rx="12" fill="#120a28" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".12"/>
+<circle cx="610" cy="56" r="5" fill="#ff5f57"/><circle cx="626" cy="56" r="5" fill="#febc2e"/><circle cx="642" cy="56" r="5" fill="#28c840"/>
+<text x="660" y="60" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5" fill="#8f7fb8">index=windows OR index=linux | live</text>
+<circle class="live" cx="914" cy="56" r="4" fill="#ff5fa2"/>
+<text x="922" y="60" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="10.5" font-weight="700" fill="#ff5fa2">LIVE</text>
+<line x1="590" y1="72" x2="964" y2="72" stroke="#ffffff" stroke-opacity=".1"/>
+<g clip-path="url(#logs)"><g class="scroll"><text y="92" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:00</tspan><tspan x="670" fill="#9fe8c4" font-weight="700">4624</tspan><tspan x="710" fill="#d9cdf5">logon success</tspan><tspan x="822" fill="#8f7fb8">user=svc_backup</tspan></text><text y="111" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:07</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">4625</tspan><tspan x="710" fill="#d9cdf5">logon failure</tspan><tspan x="822" fill="#8f7fb8">src=203.0.113.24</tspan></text><text y="130" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:14</tspan><tspan x="670" fill="#b48cff" font-weight="700">4688</tspan><tspan x="710" fill="#d9cdf5">process create</tspan><tspan x="822" fill="#8f7fb8">powershell.exe -enc</tspan></text><text y="149" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:21</tspan><tspan x="670" fill="#7fd1ff" font-weight="700">1</tspan><tspan x="710" fill="#d9cdf5">sysmon proc</tspan><tspan x="822" fill="#8f7fb8">rundll32.exe</tspan></text><text y="168" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:28</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">4625</tspan><tspan x="710" fill="#d9cdf5">logon failure</tspan><tspan x="822" fill="#8f7fb8">user=admin</tspan></text><text y="187" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:35</tspan><tspan x="670" fill="#b48cff" font-weight="700">4672</tspan><tspan x="710" fill="#d9cdf5">special privs</tspan><tspan x="822" fill="#8f7fb8">user=jdoe</tspan></text><text y="206" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:42</tspan><tspan x="670" fill="#7fd1ff" font-weight="700">3</tspan><tspan x="710" fill="#d9cdf5">sysmon netconn</tspan><tspan x="822" fill="#8f7fb8">198.51.100.7:443</tspan></text><text y="225" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:49</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">sshd</tspan><tspan x="710" fill="#d9cdf5">failed password</tspan><tspan x="822" fill="#8f7fb8">root 192.0.2.55</tspan></text><text y="244" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:56</tspan><tspan x="670" fill="#ffd166" font-weight="700">4720</tspan><tspan x="710" fill="#d9cdf5">user created</tspan><tspan x="822" fill="#8f7fb8">user=temp01</tspan></text><text y="263" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:03</tspan><tspan x="670" fill="#ffd166" font-weight="700">7045</tspan><tspan x="710" fill="#d9cdf5">service install</tspan><tspan x="822" fill="#8f7fb8">PSEXESVC</tspan></text><text y="282" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:10</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">4625</tspan><tspan x="710" fill="#d9cdf5">logon failure</tspan><tspan x="822" fill="#8f7fb8">src=203.0.113.24</tspan></text><text y="301" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:17</tspan><tspan x="670" fill="#9fe8c4" font-weight="700">4624</tspan><tspan x="710" fill="#d9cdf5">logon success</tspan><tspan x="822" fill="#8f7fb8">user=jdoe</tspan></text><text y="320" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:22:24</tspan><tspan x="670" fill="#b48cff" font-weight="700">4104</tspan><tspan x="710" fill="#d9cdf5">ps scriptblock</tspan><tspan x="822" fill="#8f7fb8">IEX (New-Object ...</tspan></text><text y="339" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:22:31</tspan><tspan x="670" fill="#7fd1ff" font-weight="700">5145</tspan><tspan x="710" fill="#d9cdf5">share access</tspan><tspan x="822" fill="#8f7fb8">\\fs01\ADMIN$</tspan></text><text y="358" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:00</tspan><tspan x="670" fill="#9fe8c4" font-weight="700">4624</tspan><tspan x="710" fill="#d9cdf5">logon success</tspan><tspan x="822" fill="#8f7fb8">user=svc_backup</tspan></text><text y="377" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:07</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">4625</tspan><tspan x="710" fill="#d9cdf5">logon failure</tspan><tspan x="822" fill="#8f7fb8">src=203.0.113.24</tspan></text><text y="396" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:14</tspan><tspan x="670" fill="#b48cff" font-weight="700">4688</tspan><tspan x="710" fill="#d9cdf5">process create</tspan><tspan x="822" fill="#8f7fb8">powershell.exe -enc</tspan></text><text y="415" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:21</tspan><tspan x="670" fill="#7fd1ff" font-weight="700">1</tspan><tspan x="710" fill="#d9cdf5">sysmon proc</tspan><tspan x="822" fill="#8f7fb8">rundll32.exe</tspan></text><text y="434" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:28</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">4625</tspan><tspan x="710" fill="#d9cdf5">logon failure</tspan><tspan x="822" fill="#8f7fb8">user=admin</tspan></text><text y="453" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:20:35</tspan><tspan x="670" fill="#b48cff" font-weight="700">4672</tspan><tspan x="710" fill="#d9cdf5">special privs</tspan><tspan x="822" fill="#8f7fb8">user=jdoe</tspan></text><text y="472" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:42</tspan><tspan x="670" fill="#7fd1ff" font-weight="700">3</tspan><tspan x="710" fill="#d9cdf5">sysmon netconn</tspan><tspan x="822" fill="#8f7fb8">198.51.100.7:443</tspan></text><text y="491" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:49</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">sshd</tspan><tspan x="710" fill="#d9cdf5">failed password</tspan><tspan x="822" fill="#8f7fb8">root 192.0.2.55</tspan></text><text y="510" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:56</tspan><tspan x="670" fill="#ffd166" font-weight="700">4720</tspan><tspan x="710" fill="#d9cdf5">user created</tspan><tspan x="822" fill="#8f7fb8">user=temp01</tspan></text><text y="529" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:03</tspan><tspan x="670" fill="#ffd166" font-weight="700">7045</tspan><tspan x="710" fill="#d9cdf5">service install</tspan><tspan x="822" fill="#8f7fb8">PSEXESVC</tspan></text><text y="548" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:10</tspan><tspan x="670" fill="#ff5fa2" font-weight="700">4625</tspan><tspan x="710" fill="#d9cdf5">logon failure</tspan><tspan x="822" fill="#8f7fb8">src=203.0.113.24</tspan></text><text y="567" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:21:17</tspan><tspan x="670" fill="#9fe8c4" font-weight="700">4624</tspan><tspan x="710" fill="#d9cdf5">logon success</tspan><tspan x="822" fill="#8f7fb8">user=jdoe</tspan></text><text y="586" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:22:24</tspan><tspan x="670" fill="#b48cff" font-weight="700">4104</tspan><tspan x="710" fill="#d9cdf5">ps scriptblock</tspan><tspan x="822" fill="#8f7fb8">IEX (New-Object ...</tspan></text><text y="605" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5"><tspan x="608" fill="#6f5d99">13:22:31</tspan><tspan x="670" fill="#7fd1ff" font-weight="700">5145</tspan><tspan x="710" fill="#d9cdf5">share access</tspan><tspan x="822" fill="#8f7fb8">\\fs01\ADMIN$</tspan></text></g></g>
+<rect x="600" y="76" width="352" height="26" fill="url(#fadeTop)"/>
+
+<!-- alert toast -->
+<circle class="pulse" cx="776" cy="287" r="60" fill="none" stroke="#ff5fa2" stroke-width="2"/>
+<g class="alert">
+  <rect x="604" y="268" width="346" height="40" rx="9" fill="#3a0d2a" stroke="#ff5fa2"/>
+  <rect x="616" y="279" width="50" height="18" rx="4" fill="#ff5fa2"/>
+  <text x="641" y="292" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="800" fill="#1a0b33">ALERT</text>
+  <text x="676" y="292" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#ffd3e6">T1110 brute force · 4625 x37</text>
+</g>
+<g class="ok">
+  <rect x="604" y="268" width="346" height="40" rx="9" fill="#0b2a2a" stroke="#4fd1a5"/>
+  <rect x="616" y="279" width="76" height="18" rx="4" fill="#4fd1a5"/>
+  <text x="654" y="292" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="800" fill="#06221c">CONTAINED</text>
+  <text x="702" y="292" font-family="Consolas, 'SF Mono', Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#c9f5e6">src blocked · report filed</text>
+</g>
+</svg>
