@@ -40,11 +40,6 @@ what fired, what I checked, what I found, and what I'd do next.
 
 <a href="https://aparnaajournal.netlify.app/"><img alt="Read my investigation journal" src="https://img.shields.io/badge/Read%20my%20investigation%20journal-%E2%86%92-ff5fa2?style=for-the-badge&labelColor=1a0b33"/></a>
 
-<br/><br/>
-
-<a href="https://aparnaajournal.netlify.app/"><img src="https://s0.wp.com/mshots/v1/https%3A%2F%2Faparnaajournal.netlify.app%2F?w=1280&h=800" width="560" alt="My investigation journal"/></a>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="attack-dark.svg">
@@ -94,10 +89,6 @@ what fired, what I checked, what I found, and what I'd do next.
 
 <img src="divider.svg" width="100%"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aparnaa19/aparnaa19/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/aparnaa19/aparnaa19/output/snake-light.svg" width="100%" alt="Contribution graph with a snake eating the squares">
-</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="h2-contact-dark.svg">
